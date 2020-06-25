@@ -20,18 +20,6 @@
                     "deploy": true
 		}
 	    ]		
-	},
-        {
-	    "sect-name": "Graphs",
-	    "experiments": [
-		{
-		    "name": "Breadth First Search",
-		    "short-name": "bfs",
-		    "repo": "https://gitlab.com/vlead-projects/experiments/ds/breadth-first-search",
-                    "tag": "v4.0.4",
-                    "deploy": true
-                }
-	    ]
 	}
     ],
     "targetAudience": {
