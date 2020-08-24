@@ -6,7 +6,7 @@
   "lab": "Digital Electronics IITR",
   "phase": 3,
   "collegeName": "IITR",
-  "baseUrl": "de-iitr.vlabs.ac.in",
+  "baseUrl": "localhost",
   "introduction": "Welcome to the Digital Electronics Lab",
   "experiments": [
     {
@@ -110,5 +110,5 @@
       "John F Wakerly, “Digital Design: Principles and Practices”, Prentice Hall."
     ]
   },
-  "version": "v5.10.19"
+  "version": "v5.11.0"
 }
