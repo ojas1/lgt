@@ -4,10 +4,9 @@
     "link": "http://www.vlab.co.in/broad-area-electronics-and-communications"
   },
   "lab": "Digital Electronics IITR",
-  "phase": "3",
-  "deployLab": true,
+  "phase": 3,
   "collegeName": "IITR",
-  "baseUrl": "http://de-iitr.vlabs.ac.in",
+  "baseUrl": "de-iitr.vlabs.ac.in",
   "introduction": "Welcome to the Digital Electronics Lab",
   "experiments": [
     {
@@ -111,5 +110,5 @@
       "John F Wakerly, “Digital Design: Principles and Practices”, Prentice Hall."
     ]
   },
-  "version": "v5.10.17"
+  "version": "v6.0.0"
 }
