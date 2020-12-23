@@ -15,13 +15,6 @@
       "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verification-and-interpretation-truth-table-gates-iitr.git",
       "tag": "v1.0.0",
       "deploy": true
-    },
-    {
-      "name": "Construction of half and full adder using XOR and NAND gates and verification of its operation",
-      "short-name": "half-full-adder",
-      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/construction-half-full-adder-verification-of-operation-iitr",
-      "tag": "v1.0.0",
-      "deploy": true
     }
   ],
   "targetAudience": {
@@ -40,5 +33,5 @@
       "John F Wakerly, “Digital Design: Principles and Practices”, Prentice Hall."
     ]
   },
-  "version": "v5.10.24"
+  "version": "v5.11.0"
 }
