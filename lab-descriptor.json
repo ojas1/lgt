@@ -8,14 +8,14 @@
   "collegeName": "IITR",
   "baseUrl": "de-iitr.vlabs.ac.in",
   "introduction": "Welcome to the Digital Electronics Lab",
-    "experiments": [
-	{
-	    "name": "Four Bar Mechanics",
-	    "short-name": "four-bar",
-	    "repo": "https://github.com/virtual-labs/exp-four-bar-mechanism-nitk",
-	    "tag": "v1.0.0",
-	    "deploy": true
-	}
+  "experiments": [
+    {
+      "name": "Four Bar Mechanics",
+      "short-name": "four-bar",
+      "repo": "https://github.com/virtual-labs/exp-four-bar-mechanism-nitk",
+      "tag": "v1.0.0",
+      "deploy": true
+    }
   ],
   "targetAudience": {
     "UG": ["B. Tech./ B.E in Electronics and Communications"],
@@ -33,5 +33,57 @@
       "John F Wakerly, “Digital Design: Principles and Practices”, Prentice Hall."
     ]
   },
-  "version": "v5.11.0"
+  "version": "v5.11.0",
+  "exp_name": "Four Bar Mechanics",
+  "exp_short_name": "four-bar",
+  "analytics": false,
+  "current_item": {
+    "item": "feedback",
+    "target": "feedback.html",
+    "label": "Feedback"
+  },
+  "menu": [
+    {
+      "item": "aim",
+      "target": "index.html",
+      "source": "aim.md",
+      "label": "Aim"
+    },
+    {
+      "item": "theory",
+      "target": "theory.html",
+      "source": "theory.md",
+      "label": "Theory"
+    },
+    {
+      "item": "pretest",
+      "target": "pretest.html",
+      "source": "pretest.js",
+      "label": "Pretest"
+    },
+    {
+      "item": "procedure",
+      "target": "procedure.html",
+      "source": "procedure.md",
+      "label": "Procedure"
+    },
+    {
+      "item": "simulation",
+      "target": "simulation.html",
+      "label": "Simulation"
+    },
+    {
+      "item": "posttest",
+      "target": "posttest.html",
+      "source": "posttest.js",
+      "label": "Posttest"
+    },
+    {
+      "item": "references",
+      "target": "references.html",
+      "source": "references.md",
+      "label": "References"
+    },
+    { "item": "feedback", "target": "feedback.html", "label": "Feedback" }
+  ]
 }
