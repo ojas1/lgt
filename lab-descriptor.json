@@ -44,46 +44,11 @@
   },
   "menu": [
     {
-      "item": "aim",
-      "target": "index.html",
-      "source": "aim.md",
-      "label": "Aim"
-    },
-    {
-      "item": "theory",
-      "target": "theory.html",
-      "source": "theory.md",
-      "label": "Theory"
-    },
-    {
-      "item": "pretest",
-      "target": "pretest.html",
-      "source": "pretest.js",
-      "label": "Pretest"
-    },
-    {
-      "item": "procedure",
-      "target": "procedure.html",
-      "source": "procedure.md",
-      "label": "Procedure"
-    },
-    {
       "item": "simulation",
       "target": "simulation.html",
       "label": "Simulation"
     },
-    {
-      "item": "posttest",
-      "target": "posttest.html",
-      "source": "posttest.js",
-      "label": "Posttest"
-    },
-    {
-      "item": "references",
-      "target": "references.html",
-      "source": "references.md",
-      "label": "References"
-    },
     { "item": "feedback", "target": "feedback.html", "label": "Feedback" }
-  ]
+  ],
+  "production": false
 }
