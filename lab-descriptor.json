@@ -1,42 +1,94 @@
 {
   "broadArea": {
-    "name": "Electronics and Communication Engineering",
-    "link": "http://www.vlab.co.in/broad-area-electronics-and-communications"
+    "name": "Electrical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering"
   },
-  "lab": "Digital Electronics IITR",
+  "lab": "Process Loop Components for the Current and Pneumatic Converters",
   "phase": 3,
-  "collegeName": "IITR",
-  "baseUrl": "de-iitr.vlabs.ac.in",
-  "introduction": "Welcome to the Digital Electronics Lab",
+  "collegeName": "coep",
+  "baseUrl": "plcip-coep.vlabs.ac.in",
+  "introduction": "Welcome to the Process Loop Component Lab for the current and pneumatic converters developed at CoEP. The main purpose of this laboratory is to make the students aware of the current and pneumatic converter used in the industry. These components are the backbone of the industry. The working and configuration of these converters require high-level skills and due to the cost of these instruments, no college can afford to have these for experimentation. Moreover, the calibration and maintenance required to continuously keep these instruments up and running are also tedious. This is an attempt to virtualize these instruments for thorough understanding.",
   "experiments": [
     {
-      "name": "Four Bar Mechanics",
-      "short-name": "four-bar",
-      "repo": "https://github.com/virtual-labs/exp-four-bar-mechanism-nitk",
-      "tag": "v1.0.0",
+      "name": "Calibration and fault finding of I/P converter for level control system",
+      "short-name": "ip-level-control",
+      "repo": "https://github.com/virtual-labs/exp-ip-level-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of I/P converter for pressure control system",
+      "short-name": "ip-pressure-control",
+      "repo": "https://github.com/virtual-labs/exp-ip-pressure-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of I/P converter for flow control system",
+      "short-name": "ip-flow-control",
+      "repo": "https://github.com/virtual-labs/exp-ip-flow-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of I/P converter for temperature control system",
+      "short-name": "ip-temperature-control",
+      "repo": "https://github.com/virtual-labs/exp-ip-temperature-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of P/E converter for level control system",
+      "short-name": "pe-level-control",
+      "repo": "https://github.com/virtual-labs/exp-pe-level-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of P/E converter for pressure control system",
+      "short-name": "pe-pressure-control",
+      "repo": "https://github.com/virtual-labs/exp-pe-pressure-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of P/E converter for flow control system",
+      "short-name": "pe-flow-control",
+      "repo": "https://github.com/virtual-labs/exp-pe-flow-control-coep",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Calibration and fault finding of P/E converter for temperature control system",
+      "short-name": "pe-temperature-control",
+      "repo": "https://github.com/virtual-labs/exp-pe-temperature-control-coep",
+      "tag": "v1.0.1",
       "deploy": true
     }
   ],
   "targetAudience": {
-    "UG": ["B. Tech./ B.E in Electronics and Communications"],
+    "UG": [
+      "B. Tech./ B.E in Instrumentation and Control Engineering, Chemical, Mechatronics, and Mechanical Engineering branches"
+    ],
     "PG": [
-      "MS/Ph. D. Beginners in Electronics and Communications and related topics"
+      "MS/Ph. D. Beginners in Process Instrumentation, Mechatronics, Mechanical (Design) fluid power, and Chemical Engineering"
     ]
   },
-  "objective": "To learn and understand the basic concepts of digital electronics.",
+  "objective": "1.Configure the current and pneumatic converter understudy <br/> 2.Analyse the effects of configurable parameters on the performance of the converter under test 3.Select the appropriate component as regards span, linearity, accuracy, and damping for the application. 4.Identify the faults in the converter and rectify the same.",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The lab contents are chosen such that it covers the syllabi of the Process Loop Components for the Current and Pneumatic Converters course of various universities to considerable extent.",
     "universities": [
-      "M. Morris Mano and M. D. Ciletti, “Digital Design”, Pearson Education.",
-      "David J. Comer, “Digital Logic & State Machine Design”, Oxford University Press",
-      "Taub, Schilieng, “Digital Integrated Electronics”.",
-      "John F Wakerly, “Digital Design: Principles and Practices”, Prentice Hall."
+      "Pune University",
+      "Indian Institute of Technology Bombay",
+      "Indian Institute of Technology Delhi",
+      "BMS College of Engineering, Bangalore",
+      "Institute having Instrumentation and control department"
     ]
   },
-  "version": "v5.11.0",
-  "exp_name": "Four Bar Mechanics",
-  "exp_short_name": "four-bar",
-  "analytics": true,
+  "version": "v1.1.0",
+  "exp_name": "Calibration and fault finding of P/E converter for temperature control system",
+  "exp_short_name": "pe-temperature-control",
+  "production": true,
   "current_item": {
     "item": "feedback",
     "target": "feedback.html",
@@ -44,11 +96,46 @@
   },
   "menu": [
     {
+      "item": "aim",
+      "target": "index.html",
+      "source": "aim.md",
+      "label": "Aim"
+    },
+    {
+      "item": "theory",
+      "target": "theory.html",
+      "source": "theory.md",
+      "label": "Theory"
+    },
+    {
+      "item": "pretest",
+      "target": "pretest.html",
+      "source": "pretest.js",
+      "label": "Pretest"
+    },
+    {
+      "item": "procedure",
+      "target": "procedure.html",
+      "source": "procedure.md",
+      "label": "Procedure"
+    },
+    {
       "item": "simulation",
       "target": "simulation.html",
       "label": "Simulation"
     },
+    {
+      "item": "posttest",
+      "target": "posttest.html",
+      "source": "posttest.js",
+      "label": "Posttest"
+    },
+    {
+      "item": "references",
+      "target": "references.html",
+      "source": "references.md",
+      "label": "References"
+    },
     { "item": "feedback", "target": "feedback.html", "label": "Feedback" }
-  ],
-  "production": false
+  ]
 }
